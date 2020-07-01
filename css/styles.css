@@ -91,6 +91,11 @@ hr {
     bottom: 300px;
 }
 
+.mountain {
+    position: relative;
+    right: 50px;
+}
+
 .skill-row {
     width: 50%;
     margin: 100px auto;
@@ -101,20 +106,48 @@ hr {
     width: 25%;
     float: left;
     margin-right: 30px;
-    
 }
 
 .deep-learning {
     width: 25%;
     float: right    ;
     margin-left: 30px;
- 
+}
+
+.programming {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
 .contact-message {
     width: 40%;
     margin: 40px auto 60px;
 }
+
+.cv-btn {
+    padding-top: 10px;
+    position: relative;
+    bottom: 350px;
+    left: 300px;
+  } 
+
+.cv-btn a {
+    border-radius: 10px;
+    color: black;
+    border: 4px solid white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: transparent;
+  } 
+  
+.cv-btn a:hover {
+    background-color: white;
+    color: black;
+  }
 
 .btn {
     background: #11CDD4;
@@ -131,7 +164,7 @@ hr {
     padding: 10px;
     box-shadow: 1px 1px 20px 0px #11CDD4;
     text-decoration: none;
-    }
+}
     
 .btn:hover {
     border: solid #30E3CB 1px;
@@ -145,5 +178,6 @@ hr {
     -moz-border-radius: 8px;
     border-radius: 8px;
     text-decoration: none;
-    }
+}
 
+ 
